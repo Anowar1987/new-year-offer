@@ -6,7 +6,7 @@ body {
 
 /* Banner section style */
 .banner-container {
-    width: 1320px;
+    max-width: 1320px;
     min-height: 600px;
     background-image: url("../images/Banner\ Image.png");
     background-position: center;
@@ -18,6 +18,7 @@ body {
     border-radius: 16px;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 .banner-content {
     display: flex;
     flex-direction: column;
@@ -26,6 +27,7 @@ body {
     padding: 177px 344px;
     color: white;
 }
+
 .banner-content h3 {
     color: rgb(255, 255, 255);
     font-size: 32px;
@@ -33,6 +35,7 @@ body {
     line-height: 40px;
     letter-spacing: 0%;
 }
+
 .banner-content h1 {
     color: rgb(255, 255, 255);
     font-size: 72px;
@@ -83,4 +86,31 @@ body {
 .off-image {
     width: 802.9px;
     height: 500px;
+}
+
+/* Mid night party section style */
+.mid-night-party-container {
+    max-width: 1320px;
+    height: 600px;
+    background-image: url("../images/mid-night-party-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode:overlay;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftside-content{
+    width: 60%;
+    height: 600px;
+    color: white;
+}
+.rightside-content{
+    width: 40%;
+    height: 600px;
 }
